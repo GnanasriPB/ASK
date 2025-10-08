@@ -7,8 +7,9 @@ Google Colab
 
 # Program
 
-##ASK
+# ASK
 
+```
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
@@ -49,8 +50,10 @@ marker='x')
 plt.title('Decoded Bits')
 plt.tight_layout()
 plt.show()
+```
 
-##FSK
+# FSK
+```
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
@@ -125,14 +128,15 @@ plt.grid(True)
 
 plt.tight_layout()
 plt.show()
+```
 
 # Output Waveform
 
-##ASK
+# ASK
 
 <img width="1190" height="790" alt="image" src="https://github.com/user-attachments/assets/2cae5aa3-68d8-484e-8c3d-6a44549d94be" />
 
-##FSK
+# FSK
 
 <img width="1201" height="1012" alt="image" src="https://github.com/user-attachments/assets/54399640-a9ab-41f0-b387-1971a5d6873c" />
 
